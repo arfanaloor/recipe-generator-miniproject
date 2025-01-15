@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ingredient Detector and Recipe Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <h1>Ingredient Detector and Recipe Generator</h1>
+    <form>
+      <input type="file" id="fileinput" name="file" accept="image/*" />
+      <div class="prompt-box">
+        <button type="submit">Generate Recipe</button>
+      </div>
+    </form>
+    <div class="output-container">
+      <h2>Ingredients Detected:</h2>
+      <pre id="ingredients-output" class="output">Results will appear here.</pre>
+      <h2>Generated Recipe:</h2>
+      <pre id="recipe-output" class="output">Recipe will appear here.</pre>
+    </div>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
