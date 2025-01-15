@@ -3,7 +3,7 @@ import Base64 from 'base64-js';
 import { maybeShowApiKeyBanner } from './gemini-api-banner';
 import './style.css';
 
-let API_KEY = 'AIzaSyA9NTAggDsMuSFy3KCtwImk09Fje3a0BPQ';
+let API_KEY = '';
 
 let form = document.querySelector('form');
 let imagePromptInput = "detect each ingredient in this image. Output should be in the format 'ingredient1,ingredient2,ingredient3....' don't show any other output structure";
